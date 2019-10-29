@@ -7,7 +7,7 @@ const buildCows = () => {
     .then((response) => {
       console.log('cow array from cowList', response);
 
-      // call a domStringBuilder functiona and pass in cows
+      // call a domStringBuilder function and pass in cows
     })
     .catch((error) => {
       console.error('shit broke', error);
